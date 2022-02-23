@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(../assets/home/background-home-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+.line, .line2{
+    width: 500px;
+    height: 2px;background-color: rgba(142, 158, 172, 0.5);
+    position: relative;
+    left: 50px;
+    top: 33px;
+}
+.line2{
+    left: 125px;
+    width: 80px;
+    height: 3px;
+    top: 69px;
+    background-color: white;
+}
+.mainPage{
+    
+    padding-top: 50px;
+}
+.space{
+    font-size: 10rem;
+    padding: 3rem 0 0 0;
+}
+.paragraph{
+    font-size: 1.2em;
+}
+
+.navBar{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    padding: 1vh;
+    display: flex;
+    background-image: linear-gradient(to left, rgba(158, 159, 190, 0.4) 50%, rgba(133, 134, 156, 0.01) 50%)
+}
+.first-part-nav{
+    width: 100%;
+    height: 10vh;
+}
+.second-part-nav{
+    background-color: rgb(39, 28, 80);
+    opacity: 0.6;
+    width: 100%;
+    height: 10vh;
+    
+   
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: white;
+    margin: 10px 100px 10px 30px;
+    background-image: url('../assets/shared/logo.svg');
+    
+
+}
+.mainBody{
+    position: relative;
+    top: 8rem;
+    left: 5rem;
+    display: flex;
+}
+.first-part-main{
+    color: white;
+}
+.second-part-main{
+    width: 16rem;
+    height: 16rem;
+    background-color: white;
+    position: relative;
+    left: 25rem;
+    top: 6.5rem;
+    border-radius: 16rem;
+    
+
+}
+.explore{
+    font-size: 2rem;
+    padding: 7rem 2rem 7rem 4rem;
+}
+ul{
+    display: flex;
+    margin: 0.1rem 2.8rem;
+}
+li{
+    list-style: none;
+    margin: 20px 20px 20px 0;
+    font-size: 1.1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
